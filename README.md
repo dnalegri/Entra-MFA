@@ -2,7 +2,7 @@
 
 ## Objective
 
-The MFA & conditional access project is to protect an organization while also providing the right levels of access to users who need it. The primary focus was to establish a custom conditional access policy that enabled MFA for users within a selected group.
+The MFA & conditional access project is to protect an organization while also providing the right levels of access to users who need it. The primary focus was to establish a custom conditional access policy to enable Microsoft Entra MFA for a group of users and configure the policy conditions that prompt for MFA.
 While Microsoft Entra ID has policy templates, I used a custom policy to get more hands-on experience.
 ### Skills Learned
 
