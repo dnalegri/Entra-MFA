@@ -2,8 +2,15 @@
 
 ## Objective
 
-The MFA & conditional access project is to protect an organization while also providing the right levels of access to users who need it. The primary focus was to establish a custom conditional access policy to enable Microsoft Entra MFA for a group of users and configure the policy conditions that prompt for MFA.
-While Microsoft Entra ID has policy templates, I used a custom policy to get more hands-on experience.
+The MFA & conditional access project protects an organization while providing the right levels of access to users who need it. The primary focus was to establish a custom conditional access policy to enable Microsoft Entra MFA for a group of users and configure the policy conditions that prompt for MFA. While Microsoft Entra ID has policy templates based on a secure foundation, zero-trust, and protecting administrators, I used a custom policy to get more hands-on experience and demonstrate the administrative process. 
+
+I want to let you know that policies within the Azure portal are separate from Microsoft Entra ID. Azure portal comes with built-in policies such as regulatory compliance with NIST, PCI-DSS, etc. as well as allowed locations for Azure resources (VMs, storage accounts) 
+enabling you to restrict locations where resources can be deployed and so on. While these two entities are separate, it is crucial to ensure policies are in place based on your organization's needs with identities and resources. Please see the definitions below:
+
+*Microsoft Entra RBAC* - Microsoft Entra roles control access to Microsoft Entra resources such as users, groups, and applications.
+
+*Azure RBAC* - Azure roles control access to Azure resources such as virtual machines or storage using Azure resource management.
+
 ### Skills Learned
 
 - Understanding of conditional access signals.
